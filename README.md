@@ -1,0 +1,2 @@
+# Spotify_Weather_Airflow
+This repository shows concepts and DAGs which connect to a Postgres database. The DAGs automate the ingestion of data from two third-party APIs, and the creation of tables with PostgresOperator, queries to the database with PostgresHook, execution of Python functions with PythonOperator, as well as execution of Bash commands with BashOperator. The airflow was containerized with Docker.
