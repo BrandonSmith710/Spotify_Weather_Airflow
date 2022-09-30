@@ -1,6 +1,6 @@
 '''
 This dag automates four python functions, the first two demonstrate
-use of xcoms and argument passing between functions. the third,
+use of xcoms and argument passing between functions. The third,
 given the login credentials of a spotify user, pipelines all of the
 user's current playlist songs from the spotify API to a postgres table,
 and the fourth function pipelines weather data from API to postgres.
